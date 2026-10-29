@@ -10,7 +10,7 @@ namespace RestaurantApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SIT1/1"); ;
+            Console.WriteLine("SIT1/1");
             Console.WriteLine("Week 2");
 
             
@@ -32,8 +32,16 @@ namespace RestaurantApp
 
         public double Rating { get; set; }
 
-        public Restaurant(int id,string name )
+        public Restaurant(int id,string name, string type, double rating)
         {
-            
+            Id = id;
+            Name = name;
+            Type = type;
+            Rating = rating;
+        }
+
+        public class Restaurant
+        {
+            private List
         }
 }
